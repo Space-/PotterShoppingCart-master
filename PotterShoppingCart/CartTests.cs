@@ -15,6 +15,8 @@ namespace PotterShoppingCart
             TotalPrizeShouldBe(0, books);
         }
 
+
+
         [TestMethod]
         public void GetTotalPrize_Buy_One_EP1_Should_return_100()
         {
